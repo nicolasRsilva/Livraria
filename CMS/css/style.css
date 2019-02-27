@@ -1,0 +1,1079 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link { 
+    text-decoration:none; 
+} 
+
+a.nounderline:link{ 
+    text-decoration:none; 
+} 
+
+a{ color: inherit; }
+
+#container{
+    width:100%;
+    height:100%; 
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+
+#modal{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*CMS*/
+.cms_center{
+    width: 1200px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;   
+    
+}
+
+.cms{
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cmsCabecalho{
+    width: 1000px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 20px 20px 0px 0px;
+    background-color: ffdd00;
+}
+
+.cmsMenu{
+    width: 1000px;
+    height: 150px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.cmsConteudo{
+    width: 1000px;
+    height: 450px;
+    border: 3px solid black;
+
+}
+
+.cmsRodape{
+    width: 1000px;
+    height: 40px;
+    padding-top: 10px;
+    border: 3px solid black;
+    border-radius: 0px 0px 20px 20px;
+    background-color: ffdd00;
+    
+}
+
+/*CABEÇALHO CMS*/
+
+.cmstitulo{
+    width: 450px;
+    height: 60px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 45px;
+}
+
+.cmsImg{
+    width: 160px;
+    height: 130px;
+    margin-left: 200px;
+    margin-top: 10px;
+    float: left;
+    background-image: url(../imagens/Woody%20Woodpecker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.tituloCMS{
+    width: 100px;
+    height: 60px;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: verdana;
+    
+}
+
+.titulo_cms{
+    width: 350px;
+    height: 45px;
+    float: left;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+/*MENU*/
+
+.cmsMenuImg{
+    width: 750px;
+    height: 150px;
+    float: left;
+    
+}
+
+.campoNomeUsuario{
+    width: 250px;
+    height: 150px;
+    float: left;
+    
+}
+
+.cmsMenuDados{
+    width: 175px;
+    height: 150px;
+    margin-left: 10px;
+    float: left;
+}
+
+.cmsMenuDados:hover> .imgMenucms{ 
+    background-size: 90px;
+    cursor: pointer;
+}
+
+.cmsMenuDados:hover> .menuNomecms{ 
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.imgMenucms{
+    width: 130px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(../imagens/if_user_981085.png);
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+
+.menuNomecms{
+    width: 175px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bemvindouUser{
+    width: 240px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: verdana;
+}
+
+.logout{
+    width: 90px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: verdana;
+    color: red;
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+
+/*Conteudo cms*/
+
+.menuConteudoCms{
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 5px 5px 5px rgba(0.5,0,0,0.5);
+    
+}
+
+.areaconteudoCms{
+    width: 700px;
+    height: 420px;
+    float: left;
+    padding-top: 30px;
+
+}
+
+.linhaMenuConteuCms{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.linhaMenuConteuCms:hover > .imgLinhaContCMS{
+    background-size: 45px; 
+    cursor: pointer;
+}
+
+.linhaMenuConteuCms:hover > .textLinhaContCMS{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.imgLinhaContCMS{
+    width: 100px;
+    height: 60px;
+    float: left;
+    background-image: url(../imagens/111138-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+}
+
+.textLinhaContCMS{
+    width: 180px;
+    height: 65px;
+    float: left;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+/*mudar margin-top quando aparecer o subMenu*/
+#linhaMenuConteuCmsCategoria{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#linhaMenuConteuCmsCategoria:hover > .imgLinhaContCMS{
+    background-size: 45px; 
+    cursor: pointer;
+}
+
+#linhaMenuConteuCmsCategoria:hover > .textLinhaContCMS{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/*linha subMenu*/
+#linhaSubMenuConteuCms{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: white;
+    display: none;
+    position: absolute;
+    margin-top: -38px;
+}
+
+.imgLinhaSubContCMS{
+    width: 60px;
+    height: 47px;
+    float: left;
+    background-image: url(../imagens/111138-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    margin-left: 77px;
+}
+
+.textLinhaSubContCMS{
+    width: 163px;
+    height: 39px;
+    float: left;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+#linhaSubMenuConteuCms:hover > .imgLinhaSubContCMS{
+    background-size: 30px; 
+    cursor: pointer;
+}
+
+#linhaSubMenuConteuCms:hover > .textLinhaSubContCMS{
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+/*Conteudo Fale Conosco*/
+.tableFaleConosco{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.fecharFaleConosco{
+    width: 800px;
+    height: 40px;
+    background-image: url(../imagens/if_close_309090.png);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+.coluna1FaleConosco{
+    width: 400px;
+    height: 550px;
+    float: left;
+}
+
+.dadosFaleConosco{
+    width: 400px;
+    min-height: 50px;
+    height: auto;
+    margin-top: 2px;
+    
+}
+
+.nomedadosFaleConosco{
+    width: 400px;
+    height: 30px;
+    margin-top: 2px;
+    padding-left: 20px;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#txtFaleConosco{
+    width: 290px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+#txtareaFaleConosco{
+    width: 290px;
+    height: 150px;
+    margin-top: 2px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+}
+
+/**AREA BEM VINDO CMS**/
+.Bemvindo{
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-family: verdana;
+    font-size: 80px;
+    text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+tr{
+height: 10px;
+   border: 1px solid black; 
+}
+
+/*Rodape*/
+
+.nomeProgramador{
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+/*Abrir Menus*/
+#conteudo{
+    display:none;
+}
+
+#faleconosco{
+    display: none;
+}
+
+#produtos{
+    display: none;
+}
+
+#usuario{
+    display: none;
+}
+
+/*conteudo fale conosco*/
+
+#bemvindo{
+    display: block;
+}
+
+#areaconteudoCms{
+    display: none;
+}
+
+/*Conteudo Usuario*/
+
+.conteudoUsuario{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cadastroUsuario{
+    width: 650px;
+    height: 120px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    
+}
+
+.salvarUsuario{
+    width: 650px;
+    height: 20px;
+    text-align: center;  
+}
+
+.linhaNivel{
+    width: 650px;
+    height: 45px;
+}
+
+.crudUsuario{
+    width: 650px;
+    height: 270px;
+    overflow: auto;
+}
+
+.linhaUsuario{
+    width: 650px;
+    height: 40px;
+}
+
+.nomeUsuario{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+.comboNomeNivel{
+    width: 160px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
+    float: left;
+    
+}
+
+.ativaUsuario{
+    width: 222px;
+    height: 30px;
+    margin-left: 197px;
+    margin-top: 15px;
+    float: left;
+    
+}
+
+#comboUsuario{
+    width: 180px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+/*Nivel usuario*/
+.conteudoNivelUsuario{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cadastroNivelUsuario{
+    width: 650px;
+    height: 150px; 
+}
+
+.bordaNivel{
+    width: 650px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 6px 6px 6px 6px;
+}
+
+
+.crudNivelUsuario{
+    width: 650px;
+    height: 250px;
+    overflow: auto;
+}
+
+.centroNivelUsuario{
+    width: 540px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.colunaNivelUsuario{
+    width: 240px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+}
+
+.botaoNivelUsuario{
+    width: 200px;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#buttonNivel{
+    width: 100px;
+    height: 27px;
+    border: 2px solid black; 
+    border-radius: 5px 5px 5px 5px;
+    background-color: yellow;
+    
+}
+
+
+.nomedadosNivel{
+    width: 420px;
+    height: 30px;
+    margin-top: 2px;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/**** Conteudo Autores ****/
+
+.conteudoAutores{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dadosAutores{
+    width: 650px;
+    height: 210px;
+}
+
+.crudAutores{
+    width: 650px;
+    height: 200px;
+    overflow: auto;
+    
+}
+
+.bordarDadosAutores{
+    width: 650px;
+    height: 190px;
+    border: 3px solid black; 
+    border-radius: 10px;
+    
+}
+
+.linha1dadosAutores{
+    width: 325px;
+    height: 150px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.colunadadosAutores{
+    width: 325px;
+    height: 150px;
+    float: left;
+    
+}
+
+.linhaDadosConteudoAutores{
+    width: 80px;
+    height: 30px;
+    float: left;
+    
+}
+
+.contAutoresdados{
+    width: 240px;
+    height: 30px;
+    float: left;  
+}
+
+
+.descricaonomeAutores{
+    width: 80px;
+    height: 20px;
+    float: left;
+}
+
+.conteudoDescricao{
+    width: 162px;
+    height: 80px;
+    float: left;
+}
+
+.linha2dadosAutores{
+    width: 650px;
+    height: 30px;
+    text-align: center;
+}
+
+.autoresFoto{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.autoresFoto img{
+    width: inherit;
+    height: inherit;
+}
+
+.fotoConteudoAutores{
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#areaAutores{
+    width: 172px;
+    height: 80px;  
+}
+
+.form{
+    width:650px;
+    height:150px;
+    float: left;
+}
+
+.form1{
+    width:325px;
+    height: 180px;
+    float: left;
+}
+
+/**CONTEUDO LIVRARIA**/
+
+.conteudoLivraria{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dadosLivraria{
+    width: 650px;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 3px;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+
+.crudLivraria{
+    width: 650px;
+    height: 150px;
+    overflow: auto;
+}
+
+
+.textoLivraria{
+    width: 210px;
+    height: 25px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+
+.areaTextoLivraria{
+    width: 210px;
+    height: 80px;
+    float: left;
+    margin-left: 5px;    
+}
+
+#areaLivraria{
+    width: 210px;
+    height: 80px;
+    
+}
+
+.linha3Livraria{
+    width: 300px;
+    height: 110px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.linha3Livrariab{
+    width: 300px;
+    height: 110px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 333px;
+    position: absolute;
+}
+
+.formatacaoL{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.ativacaoLivraria{
+    width: 240px;
+    height: 20px;   
+}
+
+.inserirFotoLivraria{
+    width: 300px;
+    height: 20px;
+}
+
+.fotoLivraria{
+    width: 200px;
+    height: 80px;
+    margin-top: 5px;
+    background-color: #c3c3c3;;
+}
+
+.fotoLivraria img{
+    width: inherit;
+    height: inherit;
+}
+
+
+/*Conteudo Loja*/
+
+.conteudoloja{
+    width: 630px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.coluna1loja{
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    float: left;
+    
+}
+
+.coluna2loja{
+    width: 200px;
+    height: 100px;
+    float: left;
+    
+}
+
+
+.linhaDadoslivraria{
+    width: 350px;
+    height: 25px;
+    margin-top: 3px;
+    
+}
+
+.nomecampoLoja{
+    width: 115px;
+    height: 25px;
+    float: left;
+}
+
+.dadosCampoLoja{
+    width: 200px;
+    height: 25px;
+    float: left;
+}
+
+
+.linhaAreaLoja{
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    float: left;
+}
+
+.dadosAreaLoja{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+
+#areaLoja{
+    width: 180px;
+    height: 70px;
+    
+}
+
+.linha3Loja{
+    width: 650px;
+    height: 45px;
+    margin-top: 45px;
+}
+
+.formataLoja3{
+    margin-left: 280px;
+}
+
+.dadosLoja{
+    width: 650px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 3px;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+
+.crudLoja{
+    width: 650px;
+    height: 180px;
+    overflow: auto;
+    
+}
+
+/**LIVRO MES**/
+
+.livroMes{
+    width: 630px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/**Promocoes**/
+
+.colunaPromocoes{
+    width: 210px;
+    height: 80px;
+    padding-top: 10px;
+    margin-left: 5px;
+    float: left;  
+}
+
+.botaoPromocoes{
+    width: 375px;
+    height: 30px;
+    padding-left: 275px;
+    float: left;
+}
+
+.linhaNomePromocoes{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: verdana;
+    
+}
+
+
+
+
+
+
+
+
+
+/*comboCategoria
+
+
+
+
+
+
+
+
+
+*/
+#comboCategoria{
+    width: 180px;
+    height: 20px;
+}
+
+
+
+/* conteudo produtos*/
+.conteudoProdutos{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.cadastroProdutos{
+    width: 400px;
+    height: 380px;
+    float:left; 
+    
+}
+
+.uploadFoto{
+    width: 250px;
+    height: 400px;
+    float:left;
+    
+}
+
+.conteudoCadastro{
+    width: 400px;
+    height: 300px;
+    
+}
+
+.btnSalvarProdutos{
+    width: 125px;
+    height: 20px;
+    padding-top: 50px;
+    padding-left: 270px;
+
+    
+}
+
+.linhaCadastro{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.nomeCadastro{
+    width: 145px;
+    height: 30px;
+    float: left;
+    font-family: verdana;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.caixasCadastro{
+    width: 230px;
+    height: 30px;
+    padding-top: 5px;
+    float: left; 
+}
+
+.produtosTela{
+    width: 200px;
+    height: 25px;
+   
+}
+
+.linhaCadastroDescricao{
+    width: 400px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.caixasCadastroDescricao{
+    width: 230px;
+    height: 70px;
+    float: left;
+}
+
+.caixaCadastroArea{
+    width: 200px;
+    height: 80px;
+    padding-top: 10px;
+    
+}
+
+.linha1foto{
+    width:250px;
+    height: 30px;
+    padding-top: 10px;  
+}
+
+.linha2foto{
+    width:250px;
+    height: 250px;
+    padding-top: 50px;
+}
+
+.fotolivro{
+    width:150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dimgrey;
+}
+
+.fotolivro img{
+    width: inherit;
+    height: inherit;
+}
+
+.flArquivo{
+    width: 240px;
+}
+
+/*** tabela Produtos*/
+.conteudoTabelaProdutos{
+    width: 650px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+
