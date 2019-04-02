@@ -1,5 +1,5 @@
 # Livraria
-Site de uma livraria com CMS (Sistema de gerenciamento do site).
+Site de uma livraria com CMS (Sistema de gerenciamento do site), desenvolvido com a linguagem de programação PHP e banco de dados MySQL.
 
 Usuário: nicolas<br>
 Senha: 123
